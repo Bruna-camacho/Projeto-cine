@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><Code - Trabalhe Conosco</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <div class="container-principal">
+        <header>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png"> 
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="Jornal Cine.html">home</a></li>
+                    <li><a href="Nossa Historia.html">Nossa Historia</a></li>
+                    <li><a href="Projetos Cinema.html">Projetos Cinema</a></li>
+                    <li><a href="#topo">Trabalhe Conosco</a></li>
+                    <li><a href="Contatos.html">Contatos</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <h1>Trabalhe Conosco</h1>
+        <section id="txt-contato">
+            <form name="meu_form" id="meu_form">
+                <p class="Nome"></p>
+                <label for="nome">Nome:</label><BR>
+                    <input type="text" id="nomeid" placeholder="exemplo" required:"required" name="Nome" />
+
+                <p class="Telefone"></p>
+                <label for="Telefone">Telefone:</label><BR>
+                    <input type="number" id="numeroid" placeholder="(xx)xxxxxxxxx" required:"required" name="Numero" />
+
+                <p class="E-mail"></p>
+                <label for="E-mail">E-mail:</label><BR>
+                    <input type="email" id="emailid" placeholder="nome@gmail.com" required:"required" name="E-mail" />
+                <p class="Anexo"></p>
+                <label> Currículo: </label>
+                <BR>
+                    <input type="file" id="myFile"/> 
+                    <BR>
+
+                <button type="submit" form="meu_form">Enviar</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>    

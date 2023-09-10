@@ -1,0 +1,155 @@
+body {
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    color:rgb(247, 38, 136);
+    background-color: pink;
+    font-size:65px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 200px;
+    margin-top: 120px;              
+}
+
+h2 {
+    color: rgb(247, 38, 136);   
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+
+
+.container-principal {font-family: 'verdana'; color:rgb(247, 38, 136);}
+header {width: 100%; height: 100px; position: relative; top: 0px;}
+ 
+.logo {position: absolute; width: 200px; height: auto;}
+
+.logo img{width: 100%;}
+
+ 
+ nav    {position: absolute; right: 30px; bottom: 0px;}
+ nav ul li {float: left; color: pink; width: auto; margin: 0.8em; font-size: 1,5em; font-family: 'Verdana'; list-style: none;}
+ nav ul li {text-decoration: none; color: rgb(247, 38, 136);}
+ nav ul li a:hover{color: rgb(247, 38, 136);}
+ nav ul li a:link{color: rgb(247, 38, 136);}
+ nav ul li a:active{color:rgb(247, 38, 136);}
+ nav ul li a:visited{color: rgb(247, 38, 136);}
+
+h3 {
+    color: rgb(247, 38, 136);   
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    padding-left: 5px;   
+}   
+
+hr {
+    border-color: rgb(247, 38, 136);
+    background-color: pink;
+}
+
+footer {
+    border-style: double; 
+    border-color: rgb(247, 38, 136);    
+}
+
+.footer-text {
+    padding-left: 30px;
+    padding-right: 30px;   
+}
+
+h4 {
+    color: rgb(247, 38, 136);   
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;   
+}
+
+.footer-end {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: pink;
+    float: right;
+    margin: 900px;
+    width: 150px;
+    margin-top: 0%;
+    position: relative;
+    top: -160px; 
+}
+
+.color-page {background-color: aliceblue;}
+
+#img-titulo{
+    position: center;
+    text-align: center;
+   }
+
+#conteudo{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;}
+
+#txt-contato form input {
+    max-width: 30%; width: 99%; height: 30%; margin-top: 10px;
+    margin-bottom: 15px; border: solid pink 3px; padding-left: 1%;}
+#txt-contato form textarea {max-width: 30%; width: 99%; border: solid pink 3px; padding-left: 1%; min-height: 70px;}
+
+#txt-contato form button { width: 32%; height: auto; cursor: pointer; background-color: pink; font-size: 20px; color: black; font-weight: bold;}
+
+#conteudo {
+        text-indent: 55px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 110px;
+}
+
+#Baner-projetos-sociais {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: relative;
+}
+
+.box    {
+    float: left;
+    width: 33.33%;    
+}
+
+.conteudo-projetos {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-top: 150PX;
+    padding-top: 150PX;    
+}
+
+.box2 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    position: relative;
+    float: left;
+    text-indent: 55px;
+    padding-left: 10px;
+    padding-right: 100px;
+    margin-left: 10PX;    
+}
+
+.box3 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: justify;
+    position: relative;
+    float: left;
+    text-indent: 55px; 
+    padding-left: 10px;
+    padding-right: 100px;
+    margin-left: 10PX;
+}
+
