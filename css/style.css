@@ -1,10 +1,12 @@
 body {
+    
 background-image: url("../img/fundo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 h1 {
+    
     color:rgb(247, 38, 136);
     background-color: pink;
     font-size:65px;
